@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Villa Gourmand · Pâtisserie Boulangerie à Tanger</title>
+<meta name="description" content="La pâtisserie boulangerie du chef Ali Gousaid, vice-champion du monde de pâtisserie, à Valfleuri, Tanger. Commandez vos pâtisseries, paiement à la livraison.">
+<meta name="theme-color" content="#13110E">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2313110E'/><g fill='none' stroke='%23C8A45E' stroke-width='1.4'><path d='M5 12 9 7h14l4 5M4 12h24M7 12v14M12 12v14M20 12v14M25 12v14M14 26v-6h4v6M3 26h26'/></g></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/facade-poster-2400.webp" media="(min-width: 861px)">
+<link rel="preload" as="image" href="assets/facade-poster-1400.webp" media="(max-width: 860px)">
+<link rel="stylesheet" href="scrollcraft.css">
+<link rel="stylesheet" href="villa.css">
+</head>
+<body>
+
+<a class="skip" href="#vitrine">Aller à la vitrine</a>
+<div class="sc-grain" aria-hidden="true"></div>
+
+<header class="bar" id="bar">
+  <a class="bar__mark" href="#top" aria-label="Villa Gourmand, retour en haut">
+    <svg class="bar__house" viewBox="0 0 120 92" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M6 24 20 6h80l14 18"/>
+  <path d="M4 24h112v4H4zM44 21h32v3H44zM6 28h108"/>
+  <path d="M8 28v62M18 28v62M30 28v62M40 28v62M80 28v62M90 28v62M102 28v62M112 28v62"/>
+  <path d="M21 35h6v10h-6zM24 35v10M21 40h6M93 35h6v10h-6zM96 35v10M93 40h6"/>
+  <path d="M10 34h6v14h-6zM104 34h6v14h-6z"/>
+  <path d="M50 34h20v12H50zM56.7 34v12M63.3 34v12M50 40h20"/>
+  <path d="M6 52h108M44 50h32v3H44zM48 56h24v9H48z"/>
+  <path d="M20 90V75a4 4 0 0 1 8 0v15M92 90V75a4 4 0 0 1 8 0v15M10 90V77a3 3 0 0 1 6 0v13M104 90V77a3 3 0 0 1 6 0v13"/>
+  <path d="M48 90V69h24v21M60 69v21M48 79h24"/>
+  <path d="M2 90h116"/></svg>
+    <span>Villa <i>G</i>ourmand</span>
+  </a>
+  <nav class="bar__nav" aria-label="Pièces de la maison">
+    <a href="#chef">Le chef</a>
+    <a href="#vitrine">La vitrine</a>
+    <a href="#commande">Sur commande</a>
+  </nav>
+  <a class="bar__cta" href="#comptoir">Commander</a>
+</header>
+
+<main id="top">
+
+  <!-- 1 · LE SEUIL: the doors open -->
+  <section id="seuil" class="seuil" data-sc-act="pin" data-sc-span="2.7">
+    <div data-sc-stage class="sc-stage seuil__stage">
+      <div class="scene" aria-hidden="true">
+        <picture>
+          <source media="(max-width: 860px)" srcset="assets/interior-1400.webp">
+          <img class="plane plane--interior" src="assets/interior-2400.webp" alt="" width="2400" height="2400" decoding="async">
+        </picture>
+        <div class="front">
+          <div class="doorway">
+            <img class="door door--l" src="assets/door-l.webp" alt="" width="330" height="803">
+            <img class="door door--r" src="assets/door-r.webp" alt="" width="330" height="803">
+          </div>
+          <picture>
+            <source media="(max-width: 860px)" srcset="assets/facade-1400.webp">
+            <img class="plane plane--facade" src="assets/facade-2400.webp" alt="" width="2400" height="2400" fetchpriority="high">
+          </picture>
+          <div class="spill"></div>
+        </div>
+      </div>
+      <img class="lamp" src="assets/lamp.webp" alt="" width="930" height="1400" aria-hidden="true">
+      <div class="seuil__scrim" aria-hidden="true"></div>
+
+      <div class="seuil__copy seuil__copy--out">
+        <p class="eyebrow">Pâtisserie · Boulangerie · Tanger</p>
+        <h1 class="seuil__title">Poussez la porte.</h1>
+        <p class="seuil__lede">La maison du chef Ali Gousaid, vice-champion du monde de pâtisserie.</p>
+      </div>
+
+      <div class="seuil__copy seuil__copy--in">
+        <h2 class="seuil__welcome">Bienvenue à la&nbsp;Villa.</h2>
+        <p class="seuil__lede" data-opening>Ouverture le 31 octobre 2026, à Valfleuri.</p>
+        <div class="seuil__actions">
+          <a class="btn btn--gold" href="#comptoir">Commander</a>
+          <a class="link" href="#vitrine">Voir la vitrine</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 · LE CHEF: respect -->
+  <section id="chef" class="room room--stone chef" data-sc-act="flow">
+    <div class="chef__grid">
+      <figure class="chef__portrait" data-sc-in>
+        <img src="assets/chef.webp" alt="Le chef Ali Gousaid, bras croisés, en veste blanche de la Coupe du Monde de la Pâtisserie" width="372" height="770" loading="lazy">
+        <figcaption>Ali Gousaid, chef pâtissier</figcaption>
+      </figure>
+      <div class="chef__text" data-sc-in data-sc-stagger="70">
+        <h2 class="display display--lg">Un vice-champion du monde derrière le comptoir.</h2>
+        <p class="body">Ali Gousaid a représenté le Maroc sur les plus grandes scènes de la pâtisserie, du sucre tiré au chocolat. À la Villa, ce même niveau d'exigence se retrouve dans un croissant du matin comme dans un entremets de fête.</p>
+        <dl class="ledger">
+          <div><dt>2025</dt><dd><strong>Vice-champion du monde</strong> · World Trophy of Pastry (FIPGC), équipe du Maroc</dd></div>
+          <div><dt>2023</dt><dd><strong>Coupe du Monde de la Pâtisserie</strong> · finale de Lyon, candidat sucre pour le Maroc</dd></div>
+          <div><dt>2022</dt><dd><strong>Coupe d'Afrique de la Pâtisserie</strong> · sucettes glacées</dd></div>
+          <div><dt>Afrique</dt><dd><strong>Champion d'Afrique de la pâtisserie</strong></dd></div>
+        </dl>
+      </div>
+    </div>
+    <div class="pieces">
+      <figure class="piece piece--a" data-sc-in>
+        <img src="assets/cmp-piece.webp" alt="Pièce en chocolat et sucre doré en forme de fleur de la Coupe du Monde de la Pâtisserie" width="992" height="660" loading="lazy">
+        <figcaption>Coupe du Monde de la Pâtisserie</figcaption>
+      </figure>
+      <figure class="piece piece--b" data-sc-in>
+        <img src="assets/sucettes.webp" alt="Sucettes glacées en sucre ambré présentées à la Coupe d'Afrique 2022" width="992" height="708" loading="lazy">
+        <figcaption>Coupe d'Afrique 2022</figcaption>
+      </figure>
+      <figure class="piece piece--c" data-sc-in>
+        <img src="assets/fipgc-pieces.webp" alt="Trois desserts de concours : pièce chocolat, oiseau en sucre rouge, bûche dorée" width="794" height="472" loading="lazy">
+        <figcaption>World Trophy of Pastry, FIPGC 2025</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 3 · LE GESTE: intimacy -->
+  <section id="geste" class="room room--night geste" data-sc-act="flow">
+    <div class="geste__media">
+      <figure class="geste__a" data-sc-parallax="-1.1">
+        <img src="assets/geste-croissant.webp" alt="Coupe d'un croissant pur beurre, alvéoles et feuilletage" width="1600" height="1063" loading="lazy">
+      </figure>
+      <figure class="geste__b" data-sc-parallax="0.9">
+        <img src="assets/geste-sucre.webp" alt="Mains d'un pâtissier façonnant une feuille de sucre tiré" width="1200" height="1500" loading="lazy">
+      </figure>
+    </div>
+    <div class="geste__text" data-sc-in data-sc-stagger="70">
+      <h2 class="display display--lg">Trois métiers, une seule exigence.</h2>
+      <ul class="metiers">
+        <li><h3>Pâtisserie fine</h3><p>Entremets, tartes et pièces de fête, montés chaque jour.</p></li>
+        <li><h3>Boulangerie artisanale</h3><p>Viennoiseries pur beurre et pains au levain, sortis du four le matin.</p></li>
+        <li><h3>Pause gourmande</h3><p>Un café, une douceur, une table. Prenez le temps.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4 · LA VITRINE: the peak -->
+  <section id="vitrine" class="room room--ivory vitrine" data-sc-act="pan" data-sc-span="5.4">
+    <div data-sc-stage class="sc-stage vitrine__stage">
+      <div class="rail" data-sc-pan="0.04">
+        <div class="rail__lead">
+          <h2 class="display display--xl">La vitrine.</h2>
+          <p class="body">Touchez une pâtisserie, elle rejoint votre boîte.</p>
+          <p class="fine">Photos d'illustration. La sélection du jour peut varier.</p>
+        </div>
+
+        <article class="item" data-id="croissant" data-name="Croissant pur beurre" style="--bg:#5a3a26">
+          <img src="assets/p-croissant.webp" alt="Croissant pur beurre doré" width="720" height="900" loading="lazy">
+          <div class="item__label"><h3>Croissant</h3><p>Pur beurre · feuilletage maison</p>
+            <button class="add" type="button" aria-label="Ajouter un croissant pur beurre à la boîte">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+        <article class="item" data-id="pain-chocolat" data-name="Pain au chocolat" style="--bg:#9a5a44">
+          <img src="assets/p-painchoc.webp" alt="Pain au chocolat entier et coupé" width="720" height="900" loading="lazy">
+          <div class="item__label"><h3>Pain au chocolat</h3><p>Deux bâtons de chocolat noir</p>
+            <button class="add" type="button" aria-label="Ajouter un pain au chocolat à la boîte">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+        <article class="item" data-id="paris-brest" data-name="Paris-Brest" style="--bg:#d3c2a4">
+          <img src="assets/p-parisbrest.webp" alt="Paris-Brest aux amandes effilées et crème praliné" width="720" height="900" loading="lazy">
+          <div class="item__label"><h3>Paris-Brest</h3><p>Choux, praliné noisette</p>
+            <button class="add" type="button" aria-label="Ajouter un Paris-Brest à la boîte">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+        <article class="item" data-id="fraisier" data-name="Fraisier" style="--bg:#e3bfc0">
+          <img src="assets/p-fraisier.webp" alt="Fraisier individuel aux fraises fraîches" width="720" height="900" loading="lazy">
+          <div class="item__label"><h3>Fraisier</h3><p>Génoise, mousseline, fraises</p>
+            <button class="add" type="button" aria-label="Ajouter un fraisier à la boîte">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+        <article class="item" data-id="choco-noisette" data-name="Entremets chocolat noisette" style="--bg:#8c4c52">
+          <img src="assets/p-chocnoisette.webp" alt="Entremets au glaçage miroir chocolat et noisettes caramélisées" width="720" height="900" loading="lazy">
+          <div class="item__label"><h3>Chocolat noisette</h3><p>Glaçage miroir, croustillant praliné</p>
+            <button class="add" type="button" aria-label="Ajouter un entremets chocolat noisette à la boîte">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+        <article class="item" data-id="citron" data-name="Tarte citron meringuée" style="--bg:#e9e19a">
+          <img src="assets/p-citron.webp" alt="Tartelette au citron meringuée" width="720" height="900" loading="lazy">
+          <div class="item__label"><h3>Tarte citron</h3><p>Crème citron, meringue italienne</p>
+            <button class="add" type="button" aria-label="Ajouter une tarte citron meringuée à la boîte">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+        <article class="item" data-id="pistache" data-name="Entremets pistache" style="--bg:#a3ad8f">
+          <img src="assets/p-pistache.webp" alt="Entremets au glaçage pistache" width="720" height="900" loading="lazy">
+          <div class="item__label"><h3>Pistache</h3><p>Mousse pistache, éclats torréfiés</p>
+            <button class="add" type="button" aria-label="Ajouter un entremets pistache à la boîte">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+        <article class="item" data-id="millefeuille" data-name="Millefeuille vanille" style="--bg:#e8dfd0">
+          <img src="assets/p-millefeuille.webp" alt="Millefeuille à la crème vanille" width="720" height="900" loading="lazy" style="object-position:72% 50%">
+          <div class="item__label"><h3>Millefeuille</h3><p>Feuilletage caramélisé, vanille</p>
+            <button class="add" type="button" aria-label="Ajouter un millefeuille vanille à la boîte">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+        <article class="item" data-id="macarons" data-name="Macarons (6)" style="--bg:#4e2533">
+          <img src="assets/p-macarons.webp" alt="Six macarons empilés en pyramide" width="720" height="900" loading="lazy">
+          <div class="item__label"><h3>Macarons</h3><p>La boîte de six parfums</p>
+            <button class="add" type="button" aria-label="Ajouter une boîte de six macarons">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+        <article class="item" data-id="baguette" data-name="Baguette tradition" style="--bg:#c9bfae">
+          <img src="assets/p-baguette.webp" alt="Deux baguettes de tradition croisées" width="720" height="900" loading="lazy">
+          <div class="item__label"><h3>Baguette</h3><p>Tradition, croûte craquante</p>
+            <button class="add" type="button" aria-label="Ajouter une baguette tradition à la boîte">Ajouter</button><span class="item__qty" aria-live="polite"></span></div>
+        </article>
+
+        <div class="rail__end">
+          <p class="display display--md">Votre boîte vous attend au comptoir.</p>
+          <a class="btn btn--dark" href="#comptoir">Commander</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · SUR COMMANDE: possibility -->
+  <section id="commande" class="room room--night commande" data-sc-act="flow">
+    <figure class="commande__img" data-sc-reveal="up" data-sc-reveal-at="0.05 0.42">
+      <img src="assets/commande.webp" alt="Gâteau de fête blanc aux pétales de chocolat et feuille d'or sur un présentoir en laiton" width="1200" height="1500" loading="lazy">
+    </figure>
+    <div class="commande__text" data-sc-in data-sc-stagger="70">
+      <h2 class="display display--lg">Un gâteau pour votre occasion.</h2>
+      <p class="body">Anniversaire, fiançailles, Aïd, baptême. Donnez-nous la date, le nombre de parts et votre envie : le chef compose.</p>
+      <form class="cake" id="cake" novalidate>
+        <div class="field">
+          <label for="cake-occasion">Occasion</label>
+          <select id="cake-occasion" name="occasion">
+            <option>Anniversaire</option><option>Fiançailles</option><option>Mariage</option><option>Aïd</option><option>Baptême</option><option>Réussite</option><option>Autre</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="cake-parts">Parts</label>
+          <select id="cake-parts" name="parts">
+            <option>6</option><option selected>8</option><option>10</option><option>12</option><option>16</option><option>20 et plus</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="cake-date">Pour le</label>
+          <input id="cake-date" name="date" type="date" required>
+        </div>
+        <div class="field field--wide">
+          <label for="cake-text">Inscription <span class="opt">(facultatif)</span></label>
+          <input id="cake-text" name="inscription" type="text" maxlength="40" placeholder="Joyeux anniversaire Lina">
+        </div>
+        <p class="cake__error" role="alert" hidden>Choisissez la date du gâteau.</p>
+        <button class="btn btn--gold" type="submit">Ajouter à la boîte</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 6 · LE COMPTOIR: resolve -->
+  <section id="comptoir" class="room room--stone comptoir" data-sc-act="flow">
+    <div class="comptoir__grid">
+      <div class="comptoir__box">
+        <svg class="box-art" viewBox="0 0 220 170" aria-hidden="true">
+          <path class="box-art__body" d="M24 64h172v96H24z"/>
+          <path class="box-art__lid" d="M16 44h188v22H16z"/>
+          <path class="box-art__ribbon box-art__ribbon--v" d="M110 44v116"/>
+          <path class="box-art__ribbon box-art__ribbon--h" d="M24 112h172"/>
+          <path class="box-art__bow" d="M110 44c-10-22-38-26-38-10 0 12 24 12 38 10zm0 0c10-22 38-26 38-10 0 12-24 12-38 10z"/>
+          <text x="110" y="141" text-anchor="middle" class="box-art__word">Villa Gourmand</text>
+        </svg>
+        <h2 class="display display--lg">Votre boîte.</h2>
+        <ul class="basket" id="basket" aria-live="polite"></ul>
+        <p class="basket__empty" id="basket-empty">Elle est encore vide. <a href="#vitrine">Passez par la vitrine</a>.</p>
+      </div>
+
+      <form class="order" id="order" method="post" action="#comptoir" novalidate>
+        <fieldset class="mode">
+          <legend>Comment la recevoir ?</legend>
+          <label class="mode__opt"><input type="radio" name="mode" value="livraison" checked><span><strong>Livraison à domicile</strong> Paiement en espèces à la livraison</span></label>
+          <label class="mode__opt"><input type="radio" name="mode" value="retrait"><span><strong>Retrait en boutique</strong> Paiement sur place, à Valfleuri</span></label>
+        </fieldset>
+        <div class="order__fields">
+          <div class="field"><label for="o-name">Nom</label><input id="o-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="o-phone">Téléphone</label><input id="o-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="06 00 00 00 00" required></div>
+          <div class="field field--wide" data-delivery><label for="o-address">Adresse</label><input id="o-address" name="address" autocomplete="street-address" required></div>
+          <div class="field" data-delivery><label for="o-area">Quartier</label><input id="o-area" name="area" autocomplete="address-level3" placeholder="Valfleuri, Marshan, Iberia…"></div>
+          <div class="field"><label for="o-date">Jour</label><input id="o-date" name="date" type="date" required></div>
+          <div class="field"><label for="o-slot">Créneau</label>
+            <select id="o-slot" name="slot"><option>Matin</option><option>Midi</option><option>Après-midi</option><option>Soir</option></select></div>
+          <div class="field field--wide"><label for="o-note">Précisions <span class="opt">(facultatif)</span></label><textarea id="o-note" name="note" rows="2"></textarea></div>
+        </div>
+        <p class="order__error" role="alert" hidden></p>
+        <button class="btn btn--dark btn--block" type="submit">Commander</button>
+        <p class="fine">Votre commande part sur WhatsApp au +212 6 62 72 52 66. Les prix et les frais de livraison vous sont confirmés par la boutique avant préparation. Rien n'est payé en ligne.</p>
+      </form>
+    </div>
+
+    <footer class="foot">
+      <div class="foot__brand"><svg class="foot__logo" viewBox="0 0 120 92" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M6 24 20 6h80l14 18"/>
+  <path d="M4 24h112v4H4zM44 21h32v3H44zM6 28h108"/>
+  <path d="M8 28v62M18 28v62M30 28v62M40 28v62M80 28v62M90 28v62M102 28v62M112 28v62"/>
+  <path d="M21 35h6v10h-6zM24 35v10M21 40h6M93 35h6v10h-6zM96 35v10M93 40h6"/>
+  <path d="M10 34h6v14h-6zM104 34h6v14h-6z"/>
+  <path d="M50 34h20v12H50zM56.7 34v12M63.3 34v12M50 40h20"/>
+  <path d="M6 52h108M44 50h32v3H44zM48 56h24v9H48z"/>
+  <path d="M20 90V75a4 4 0 0 1 8 0v15M92 90V75a4 4 0 0 1 8 0v15M10 90V77a3 3 0 0 1 6 0v13M104 90V77a3 3 0 0 1 6 0v13"/>
+  <path d="M48 90V69h24v21M60 69v21M48 79h24"/>
+  <path d="M2 90h116"/></svg><p class="foot__mark">Villa <i>G</i>ourmand</p><p class="foot__sub">Boulangerie · Pâtisserie</p></div>
+      <div class="foot__cols">
+        <p>Pâtisserie · Boulangerie<br>Valfleuri, Tanger</p>
+        <p>Horaires communiqués à l'ouverture<br><a href="https://wa.me/212662725266" rel="noopener">WhatsApp +212 6 62 72 52 66</a></p>
+        <p><a href="https://www.instagram.com/villa_gourmand/" rel="noopener">Instagram @villa_gourmand</a><br><a href="https://www.instagram.com/ali_gousaid/" rel="noopener">Le chef @ali_gousaid</a></p>
+      </div>
+    </footer>
+  </section>
+
+</main>
+
+<!-- The box: the page's cart, always in reach -->
+<button class="boite" id="boite-btn" type="button" aria-haspopup="dialog" aria-controls="boite">
+  <svg class="boite__art" viewBox="0 0 48 40" aria-hidden="true">
+    <path class="boite__body" d="M6 16h36v22H6z"/>
+    <path class="boite__lid" d="M3 9h42v8H3z"/>
+    <path class="boite__ribbon" d="M24 9v29"/>
+  </svg>
+  <span class="boite__label">Ma boîte</span>
+  <span class="boite__count" id="boite-count">0</span>
+</button>
+
+<dialog class="drawer" id="boite" aria-labelledby="drawer-title">
+  <div class="drawer__head">
+    <h2 id="drawer-title">Ma boîte</h2>
+    <button class="drawer__close" type="button" data-close aria-label="Fermer">×</button>
+  </div>
+  <ul class="basket basket--drawer" id="drawer-list"></ul>
+  <p class="basket__empty" id="drawer-empty">Votre boîte est vide.</p>
+  <a class="btn btn--gold btn--block" href="#comptoir" data-close>Commander</a>
+</dialog>
+
+<dialog class="drawer drawer--recap" id="recap" aria-labelledby="recap-title">
+  <div class="drawer__head">
+    <h2 id="recap-title">Votre commande est prête à envoyer</h2>
+    <button class="drawer__close" type="button" data-close aria-label="Fermer">×</button>
+  </div>
+  <p class="fine" id="recap-note"></p>
+  <textarea class="recap__text" id="recap-text" readonly rows="12" aria-label="Récapitulatif de la commande"></textarea>
+  <div class="recap__actions">
+    <a class="btn btn--gold" id="recap-send" href="https://wa.me/212662725266" target="_blank" rel="noopener">Envoyer sur WhatsApp</a>
+    <button class="link link--btn" type="button" id="recap-copy">Copier le récapitulatif</button>
+  </div>
+</dialog>
+
+<script src="scrollcraft.js"></script>
+<script>ScrollCraft.mount(document.body);</script>
+<script src="villa.js"></script>
+</body>
+</html>

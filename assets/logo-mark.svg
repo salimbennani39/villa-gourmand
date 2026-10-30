@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 92" fill="none" stroke="#C8A45E" stroke-width="1.4" stroke-linejoin="round">
+  <!-- roof and cornice -->
+  <path d="M6 24 20 6h80l14 18"/>
+  <path d="M4 24h112v4H4zM44 21h32v3H44zM6 28h108"/>
+  <!-- pilasters -->
+  <path d="M8 28v62M18 28v62M30 28v62M40 28v62M80 28v62M90 28v62M102 28v62M112 28v62"/>
+  <!-- first floor windows -->
+  <path d="M21 35h6v10h-6zM24 35v10M21 40h6M93 35h6v10h-6zM96 35v10M93 40h6"/>
+  <path d="M10 34h6v14h-6zM104 34h6v14h-6z"/>
+  <path d="M50 34h20v12H50zM56.7 34v12M63.3 34v12M50 40h20"/>
+  <!-- balcony band and sign panel -->
+  <path d="M6 52h108M44 50h32v3H44zM48 56h24v9H48z"/>
+  <!-- ground floor arches -->
+  <path d="M20 90V75a4 4 0 0 1 8 0v15M92 90V75a4 4 0 0 1 8 0v15M10 90V77a3 3 0 0 1 6 0v13M104 90V77a3 3 0 0 1 6 0v13"/>
+  <!-- entrance -->
+  <path d="M48 90V69h24v21M60 69v21M48 79h24"/>
+  <path d="M2 90h116"/>
+</svg>
